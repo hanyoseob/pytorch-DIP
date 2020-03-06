@@ -34,7 +34,7 @@ Apart from its diverse applications, our approach highlights the inductive bias 
     $ tensorboard --logdir [log directory] \
                   --port [(optional) 4 digit port number]
 ---
-    $ tensorboard --logdir ./log/ \
+    $ tensorboard --logdir ./log \
                   --port 6006
                   
 After the above comment executes, go **http://localhost:6006**
