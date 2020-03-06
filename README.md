@@ -31,10 +31,10 @@ Apart from its diverse applications, our approach highlights the inductive bias 
 * **index.html** is also generated to display the generated images.  
 
 ## Tensorboard
-    $ tensorboard --logdir [log directory]/[scope name]/[data name] \
+    $ tensorboard --logdir [log directory] \
                   --port [(optional) 4 digit port number]
 ---
-    $ tensorboard --logdir ./log/unet/em \
+    $ tensorboard --logdir ./log/ \
                   --port 6006
                   
 After the above comment executes, go **http://localhost:6006**
