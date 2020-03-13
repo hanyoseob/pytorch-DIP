@@ -65,8 +65,8 @@ parser.add_argument('--data_type', default='float32', dest='data_type')
 parser.add_argument('--loss_type', default='l2', choices=['l1', 'l2'], dest='loss_type')
 parser.add_argument('--network_type', default='hourglass', choices=['hourglass', 'unet', 'cnp', 'resnet'], dest='network_type')
 
-parser.add_argument('--num_freq_disp', type=int,  default=100, dest='num_freq_disp')
-parser.add_argument('--num_freq_save', type=int,  default=500, dest='num_freq_save')
+parser.add_argument('--num_freq_disp', type=int,  default=5, dest='num_freq_disp')
+parser.add_argument('--num_freq_save', type=int,  default=10, dest='num_freq_save')
 
 PARSER = Parser(parser)
 
